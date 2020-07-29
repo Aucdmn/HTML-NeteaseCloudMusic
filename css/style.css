@@ -19,7 +19,6 @@ header{
     height: 0.48rem;
     background-color: #d43b33;
     display: flex;
-    
     justify-content: space-between;
 }
 
@@ -65,4 +64,25 @@ header form .iconfont{
     padding-right: 0.09rem;
     font-size: 0.14rem;
     color: #cdcdcd;
+}
+
+/* nav */
+nav{
+    height: 0.4rem;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    display: flex;
+    align-items: center;
+    color: #323232;
+    font-size: 0.14rem;
+    border-bottom: 4px solid transparent;
+}
+
+nav .clicked{
+    color: #bb4239;
+    border-bottom: 4px solid #bb4239;
 }
