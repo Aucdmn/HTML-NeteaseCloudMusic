@@ -86,3 +86,218 @@ nav .clicked{
     color: #bb4239;
     border-bottom: 4px solid #bb4239;
 }
+
+/* main */
+.main{
+    background-color: #c7c7c7;
+    flex: 1;
+    overflow: auto;
+}
+
+.container .banner{
+    margin-bottom: 0.15rem;
+}
+
+.container .banner img{
+    width: 100%;
+    height: 1.38rem;
+    margin-top: 0.01rem;
+}
+
+.container .iconList{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #e0e1e3;
+    padding-bottom: 0.15rem;
+    /* background-color: aquamarine; */
+}
+
+.iconList .subArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.iconList .personalize{
+    padding-left: 0.02rem;
+    /* background-color: cornflowerblue; */
+}
+
+.iconList .subArea i{
+    display: flex;
+    justify-content: center;
+    width: 0.54rem;
+    height: 0.54rem;
+    border: 1px solid #c93e37;
+    border-radius: 50%;
+    /* line-height: 0.54rem; */
+    align-items: center;
+    font-size: 0.25rem;
+    color: #c93e37;
+}
+
+.iconList .subArea:nth-of-type(2) i{
+    font-size: 0.35rem;
+}
+
+.iconList .subArea span{
+    font-size: 0.11rem;
+    color: #343537;
+    margin-top: 0.07rem;
+}
+
+main .container .songList{
+    /* background-color: aquamarine; */
+    height: 0.46rem;
+    padding-top: 0.2rem;
+    padding-left: 0.11rem;
+    padding-right: 0.11rem;
+    
+}
+
+.songList .head .lPart{
+    font-size: 0.16rem;
+    color: #2e2f31;
+}
+
+.songList .head .iconfont{
+    color: #ba453b;
+    padding-right: 0.07rem;
+}
+
+.songList .head .rBox{
+    /* background-color: red; */
+    padding-top: 0.06rem;
+    
+}
+
+.songList .head .more{
+    font-size: 0.11rem;
+    color: #666867;
+}
+
+.songList .head .bracket{
+    font-size: 0.11rem;
+    color: #666867;
+    /* height: 0.09rem; */
+    /* width: 0.05rem; */
+    /* background-color: red; */
+    margin-left: 0.04rem;
+}
+
+main .container .songList .picSection{
+    /* padding: 0 0.1rem; */
+    /* background-color: darkorange; */
+    margin-top: 0.1rem;
+    display: flex;
+    width: 100%;
+}
+
+.picSection .pic{
+    display: flex;
+    flex-direction: column;
+    height: 1.5rem;
+    width: 1.13rem;
+    /* background-color: blueviolet; */
+    font-size: 0.12rem;
+    color: #2f3032;
+}
+
+.picSection .pic img{
+    width: 1.13rem;
+    height: 1.13rem;
+    padding-bottom: 0.08rem;
+}
+
+.picSection .pic:nth-of-type(2){
+    margin: 0 0.08rem;
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer{
+    display: flex;
+    background-color: #2b292a;
+    height: 0.51rem;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 0.07rem;
+    padding-bottom: 0.04rem;
+    opacity: 0.8;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+footer .word{
+    font-size: 0.1rem;
+}
+
+
+footer .findMusic{
+    display: flex;
+    flex-direction: column;
+    /* background-color: yellowgreen; */
+    color: #fcffff;
+}
+.findMusic i{
+    display: flex;
+    justify-content: center;
+    font-size: 0.25rem;
+}
+
+.myMusic{
+    display: flex;
+    flex-direction: column;
+    color: #fcffff;
+
+}
+.myMusic i{
+    display: flex;
+    justify-content: center;
+    font-size: 0.25rem;
+}
+
+.friends{
+    display: flex;
+    flex-direction: column;
+    color: #fcffff;
+
+}
+.friends i{
+    display: flex;
+    justify-content: center;
+    font-size: 0.25rem;
+}
+
+.account{
+    display: flex;
+    flex-direction: column;
+    color: #fcffff;
+
+}
+.account i{
+    display: flex;
+    justify-content: center;
+    font-size: 0.25rem;
+    font-weight: bold;
+}
+
+/* .account span{
+    padding-right: -0.2rem;
+} */
+

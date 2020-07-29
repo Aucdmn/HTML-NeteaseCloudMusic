@@ -24,6 +24,10 @@ a{
 ul,ol{
 	list-style:none;
 }
+
+.fl{ float: left;}
+.fr{ float: right;}
+
 .clearFixed:after{
 	content:"";
 	clear:both;
